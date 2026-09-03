@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "ShippingRatesCalculation.Controllers.ShipmentRatesController",
+    "Method": "Calculate",
+    "RelativePath": "api/rates/calculate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Weight",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Width",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Breadth",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Height",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServiceType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DestinationZone",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
